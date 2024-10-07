@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { FiDownload } from "react-icons/fi"
 ///////import-components//////////
 import Social from "@/components/ui/Social"
-import Photo from "@/components/Photo"
+import Photox from "@/components/Photox"
 import Stats from "@/components/Stats"
 //////////////////////////////////
 export default function Home() {
@@ -41,7 +41,7 @@ export default function Home() {
 
         {/* Photo */}
         <div className="order-1 xl:order-none mb-30 xl:mb-0">
-          <Photo />
+          <Photox />
         </div>
         </div>
       </div>
