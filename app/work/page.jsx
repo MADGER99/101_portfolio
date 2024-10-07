@@ -60,7 +60,7 @@ const Work = () => {
       >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
-          <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
+          <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-1 xl:order-none">
             <div className="flex flex-col gap-[30px] h-[50%]">
               {/* Outline num*/}
               <div className="text-8xl leading-none font-extrabold  text-outline">
@@ -116,7 +116,7 @@ const Work = () => {
               
             </div>
           </div>
-          <div className="w-full xl:w-[50%]">
+          <div className="w-full xl:w-[50%] order-2 ">
             <Swiper 
               spaceBetween={30}
               slidesPerView={1}
@@ -126,9 +126,9 @@ const Work = () => {
                 {projects.map((project, index)=>{
                   return (
                     <SwiperSlide key={index} className="w-full">
-                      <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                      <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/0">
                       {/* overlay */}
-                      <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10">
+                      <div className="absolute top-0 bottom-0 w-full h-full bg-black/0 z-10">
 
                       </div>
                       {/* image */}

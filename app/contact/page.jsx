@@ -43,7 +43,7 @@ const Content = () => {
           {/* form */}
           <div className="xl:w-[60%] order-2 xl:order-none ">
             <form className="flex flex-col gap-6 p-10 bg-pink-50/10 rounded-xl">
-            <h3 className="text-4xl text-accent ">Lets work together</h3>
+            <h3 className="text-4xl text-accent ">Let's work together</h3>
             <p className="text-white/60">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus nam nemo consectetur quaerat ducimus earum. Sed nostrum a nulla quam ab! Eligendi velit corporis laboriosam perferendis neque veritatis doloribus?
             </p>
